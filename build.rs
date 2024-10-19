@@ -6,7 +6,7 @@ use std::path::PathBuf;
 static MISSING_PATH_CONFIG_MSG: &str =
     "The `bsec_include_path` configuration option must be set to the absolute \
 path of the BSEC header files. You can do that by creating a \
-`.cargo/config` file in your crate with the following content:
+`.cargo/config.toml` file in your crate with the following content:
 
 [build]
 rustflags = [
